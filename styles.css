@@ -1,0 +1,41 @@
+body {
+  margin: 0px;
+  border: 0px solid red;
+  padding: 0px;
+  background: #14495e;
+}
+
+.eyes {
+  top: 50%;
+  /* bottom: 50%; */
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  transform: translateY(-50%);
+  }
+.eye {
+  /*EYE CREATION*/
+  background: #fff;
+  display: inline-block;
+  border-radius: 50%;
+  /*EYE DIMENSION AND POSITION*/
+  margin: 30px; /*EYES GAP*/
+  width: 240px;
+  height: 120px;
+    
+  position: relative;
+  overflow: hidden;
+}
+.ball {
+  /*CREATE A CIRCLE*/
+  background: #000;
+  position: absolute;
+  border-radius: 50%;
+  /*CIRCLE DIMENSIONS AND LOCATION*/
+  width: 80px;
+  height: 80px;
+  top: 50%;
+  left: 50%;
+  /*CIRCLE TRANSFORMATION*/
+  transform: translate(-50%, -50%);
+  }
